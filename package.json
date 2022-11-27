@@ -1,0 +1,36 @@
+{
+  "name": "vuetify-project",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@carbon/charts": "^1.6.1",
+    "@carbon/charts-vue": "^1.6.0",
+    "@mdi/font": "5.9.55",
+    "@vueuse/core": "^9.4.0",
+    "axios": "^1.1.3",
+    "chart.js": "^4.0.1",
+    "d3": "^7.6.1",
+    "mosha-vue-toastify": "^1.0.23",
+    "qs": "^6.11.0",
+    "roboto-fontface": "*",
+    "sass": "^1.56.0",
+    "vue": "^3.2.38",
+    "vue-chartjs": "^4.1.2",
+    "vue-router": "4",
+    "vuetify": "^3.0.0",
+    "vuex": "^4.1.0",
+    "webfontloader": "^1.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.3",
+    "typescript": "^4.0.0",
+    "vite": "^3.0.9",
+    "vite-plugin-vuetify": "^1.0.0-alpha.12",
+    "vue-tsc": "^1.0.9"
+  }
+}
